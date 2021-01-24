@@ -5,10 +5,10 @@ import TestComponent from '../components/test-component';
 export default function Home() {
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
 
       <main>
         <TestComponent />
