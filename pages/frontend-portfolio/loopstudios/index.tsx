@@ -41,20 +41,26 @@ function LoopStudios(){
                         Immersive experiences that deliver
                     </div>
 
+                    <div className={'container sm:mx-auto'}
+                        style={{height: '100vh'}}>
+                        <div className={'h-2/5 w-11/12 mx-auto'}>
+                            <Image 
+                                src={`${interativeMobileImg}`}
+                                alt="Picture of the author"
+                                width={'750'}
+                                height={'500'}
+                                layout={'responsive'}
+                                objectFit={'contain'}
+                            />
+                        </div>
+                        <div className={'h-3/5 w-11/12 mx-auto'}>
+                            The leader in interactive VR
 
-                    <div className={"container sm:mx-auto"}>
-                        <Image 
-                            src={`${interativeMobileImg}`}
-                            alt="Picture of the author"
-                            width={300}
-                            height={300}
-                        />
-                        The leader in interactive VR
-
-                        Founded in 2011, Loopstudios has been producing world-class virtual reality 
-                        projects for some of the best companies around the globe. Our award-winning 
-                        creations have transformed businesses through digital experiences that bind 
-                        to their brand.
+                            Founded in 2011, Loopstudios has been producing world-class virtual reality 
+                            projects for some of the best companies around the globe. Our award-winning 
+                            creations have transformed businesses through digital experiences that bind 
+                            to their brand.
+                        </div>
                     </div>
                     <div className={"container sm:mx-auto"}>
                         Our creations
