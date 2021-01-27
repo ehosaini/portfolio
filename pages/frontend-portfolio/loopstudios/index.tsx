@@ -28,7 +28,10 @@ function LoopStudios(){
 
                 </Head>
                 <body>
-                    <div className={"container sm:mx-auto"} style={{backgroundImage: `url(${bgHeroMobileImg})`, height: '60vh'}}>
+                    <div className={"container sm:mx-auto bg-no-repeat bg-cover"} 
+                        style={{backgroundImage: `url(${bgHeroMobileImg})`, 
+                        backgroundPosition: 'center',
+                        height: '100vh'}}>
                         About
                         Careers
                         Events
@@ -58,35 +61,59 @@ function LoopStudios(){
 
                         See all
 
-                        <div style={{backgroundImage: `url(${deepEarthMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'}
+                            style={{backgroundImage: `url(${deepEarthMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             Deep earth
                         </div>    
                         
-                        <div style={{backgroundImage: `url(${nightArcadeMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'} 
+                            style={{backgroundImage: `url(${nightArcadeMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             Night arcade
                         </div>  
                         
-                        <div style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'}  
+                            style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             Soccer team VR
                         </div>  
                         
-                        <div style={{backgroundImage: `url(${theGridMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'}  
+                            style={{backgroundImage: `url(${theGridMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             The grid
                         </div>  
                         
-                        <div style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'} 
+                            style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             From up above VR
                         </div>  
                         
-                        <div style={{backgroundImage: `url(${pocketBorealisMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'}  
+                            style={{backgroundImage: `url(${pocketBorealisMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             Pocket borealis
                         </div>  
                         
-                        <div style={{backgroundImage: `url(${theCuriosityMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'}  
+                            style={{backgroundImage: `url(${theCuriosityMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             The curiosity
                         </div>  
                         
-                        <div style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, height: '20vh'}}>
+                        <div className={'bg-no-repeat bg-cover'}  
+                            style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, 
+                            backgroundPosition: 'center',
+                            height: '20vh'}}>
                             Make it fisheye    
                         </div>  
                     </div>
