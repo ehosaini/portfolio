@@ -32,13 +32,17 @@ function LoopStudios(){
                         style={{backgroundImage: `url(${bgHeroMobileImg})`, 
                         backgroundPosition: 'center',
                         height: '100vh'}}>
-                        About
-                        Careers
-                        Events
-                        Products
-                        Support
-
-                        Immersive experiences that deliver
+                        
+                        <div>
+                            About
+                            Careers
+                            Events
+                            Products
+                            Support
+                        </div>
+                        <div>
+                            Immersive experiences that deliver
+                        </div>
                     </div>
 
                     <div className={'container sm:mx-auto'}
@@ -54,19 +58,27 @@ function LoopStudios(){
                             />
                         </div>
                         <div className={'h-3/5 w-11/12 mx-auto'}>
-                            The leader in interactive VR
-
-                            Founded in 2011, Loopstudios has been producing world-class virtual reality 
-                            projects for some of the best companies around the globe. Our award-winning 
-                            creations have transformed businesses through digital experiences that bind 
-                            to their brand.
+                            <div>
+                                <h2>The leader in interactive VR</h2>
+                            </div>
+                            
+                            <div>
+                                <p>
+                                    Founded in 2011, Loopstudios has been producing world-class virtual reality 
+                                    projects for some of the best companies around the globe. Our award-winning 
+                                    creations have transformed businesses through digital experiences that bind 
+                                    to their brand.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className={"container sm:mx-auto"}>
-                        Our creations
+                        <h2>Our creations</h2>
 
-                        See all
-
+                        <button>
+                            See all
+                        </button>
+                        
                         <div className={'bg-no-repeat bg-cover'}
                             style={{backgroundImage: `url(${deepEarthMobileImg})`, 
                             backgroundPosition: 'center',
