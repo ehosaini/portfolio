@@ -47,7 +47,7 @@ function LoopStudios(){
 
                     <div className={'container sm:mx-auto'}
                         style={{height: '100vh'}}>
-                        <div className={'h-2/5 w-11/12 mx-auto'}>
+                        <div className={'max-w-sm max-h-64 mx-auto'}>
                             <Image 
                                 src={`${interativeMobileImg}`}
                                 alt="Picture of the author"
