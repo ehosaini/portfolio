@@ -45,7 +45,7 @@ function LoopStudios(){
                         </div>
                     </div>
 
-                    <div className={'container sm:mx-auto'}
+                    <div className={'container sm:mx-auto mt-16'}
                         style={{height: '100vh'}}>
                         <div className={'max-w-sm max-h-64 mx-auto'}>
                             <Image 
@@ -57,7 +57,7 @@ function LoopStudios(){
                                 objectFit={'contain'}
                             />
                         </div>
-                        <div className={'h-3/5 w-11/12 mx-auto'}>
+                        <div className={'max-w-sm max-h-64 mx-auto mt-8'}>
                             <div>
                                 <h2 className={"text-4xl uppercase mb-8 text-center md:text-left"}>The leader in interactive VR</h2>
                             </div>
