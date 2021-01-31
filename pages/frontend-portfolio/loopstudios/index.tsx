@@ -59,11 +59,11 @@ function LoopStudios(){
                         </div>
                         <div className={'h-3/5 w-11/12 mx-auto'}>
                             <div>
-                                <h2>The leader in interactive VR</h2>
+                                <h2 className={"text-4xl uppercase mb-8 text-center md:text-left"}>The leader in interactive VR</h2>
                             </div>
                             
                             <div>
-                                <p>
+                                <p className={"text-center md:text-left"}> 
                                     Founded in 2011, Loopstudios has been producing world-class virtual reality 
                                     projects for some of the best companies around the globe. Our award-winning 
                                     creations have transformed businesses through digital experiences that bind 
