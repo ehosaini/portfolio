@@ -45,9 +45,9 @@ function LoopStudios(){
                         </div>
                     </div>
 
-                    <div className={'container sm:mx-auto mt-16'}
+                    <div className={'container sm:mx-auto mt-16 relative z-0'}
                         style={{height: '100vh'}}>
-                        <div className={'max-w-sm max-h-64 mx-auto'}>
+                        <div className={'max-w-sm max-h-64 mx-auto md:max-w-2xl md:ml-16'}>
                             <Image 
                                 src={`${interativeMobileImg}`}
                                 alt="Picture of the author"
@@ -57,13 +57,13 @@ function LoopStudios(){
                                 objectFit={'contain'}
                             />
                         </div>
-                        <div className={'max-w-sm max-h-64 mx-auto mt-8'}>
+                        <div className={'max-w-sm mx-auto mt-8 p-14 bg-white relative z-10 md:-mt-3 md:mr-96 lg:max-w-xl'}>
                             <div>
-                                <h2 className={"text-4xl uppercase mb-8 text-center md:text-left"}>The leader in interactive VR</h2>
+                                <h2 className={"text-4xl uppercase mb-8 text-center max-w-sm md:text-left"}>The leader in interactive VR</h2>
                             </div>
                             
                             <div>
-                                <p className={"text-center md:text-left"}> 
+                                <p className={"text-center max-w-md md:text-left"}> 
                                     Founded in 2011, Loopstudios has been producing world-class virtual reality 
                                     projects for some of the best companies around the globe. Our award-winning 
                                     creations have transformed businesses through digital experiences that bind 
