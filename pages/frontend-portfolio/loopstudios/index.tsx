@@ -47,7 +47,7 @@ function LoopStudios(){
 
                     <div className={'container sm:mx-auto mt-16 relative z-0'}
                         style={{height: '100vh'}}>
-                        <div className={'max-w-sm max-h-64 mx-auto md:max-w-2xl md:ml-16'}>
+                        <div className={'mx-auto max-w-xs md:max-w-sm md:max-h-64 md:max-w-2xl md:ml-24'}>
                             <Image 
                                 src={`${interativeMobileImg}`}
                                 alt="Picture of the author"
@@ -57,7 +57,7 @@ function LoopStudios(){
                                 objectFit={'contain'}
                             />
                         </div>
-                        <div className={'max-w-sm mx-auto mt-8 p-14 bg-white relative z-10 md:-mt-3 md:mr-96 lg:max-w-xl'}>
+                        <div className={'mx-auto mt-8 p-14 bg-white relative z-10 md:-mt-3 md:mr-20 lg:max-w-xl'}>
                             <div>
                                 <h2 className={"text-4xl uppercase mb-8 text-center max-w-sm md:text-left"}>The leader in interactive VR</h2>
                             </div>
