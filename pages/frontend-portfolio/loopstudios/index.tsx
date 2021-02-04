@@ -28,7 +28,7 @@ function LoopStudios(){
 
                 </Head>
                 <body>
-                    <div className={"container sm:mx-auto bg-no-repeat bg-cover"} 
+                    <div className={'container sm:mx-auto bg-no-repeat bg-cover'} 
                         style={{backgroundImage: `url(${bgHeroMobileImg})`, 
                         backgroundPosition: 'center',
                         height: '100vh'}}>
@@ -47,23 +47,23 @@ function LoopStudios(){
 
                     <div className={'container sm:mx-auto mt-16 relative z-0'}
                         style={{height: '100vh'}}>
-                        <div className={'mx-auto max-w-xs md:max-w-sm md:max-h-64 md:max-w-2xl md:ml-24'}>
+                        <div className={'mx-auto max-w-xs lg:max-w-sm lg:max-h-64 lg:max-w-2xl lg:ml-24'}>
                             <Image 
                                 src={`${interativeMobileImg}`}
-                                alt="Picture of the author"
+                                alt='Picture of the author'
                                 width={'750'}
                                 height={'500'}
                                 layout={'responsive'}
                                 objectFit={'contain'}
                             />
                         </div>
-                        <div className={'mx-auto mt-8 p-14 bg-white relative z-10 md:-mt-3 md:mr-20 lg:max-w-xl'}>
-                            <div>
-                                <h2 className={"text-4xl uppercase mb-8 text-center max-w-sm md:text-left"}>The leader in interactive VR</h2>
+                        <div className={'mx-auto mt-8 p-14 bg-white relative z-10 lg:-mt-3 lg:mr-80 lg:max-w-xl'}>
+                            <div className={'text-4xl uppercase mb-8 text-center max-w-sm lg:text-left'}>
+                                <h2>The leader in interactive VR</h2>
                             </div>
                             
-                            <div>
-                                <p className={"text-center max-w-md md:text-left"}> 
+                            <div className={'text-center max-w-md lg:text-left'}>
+                                <p> 
                                     Founded in 2011, Loopstudios has been producing world-class virtual reality 
                                     projects for some of the best companies around the globe. Our award-winning 
                                     creations have transformed businesses through digital experiences that bind 
@@ -72,84 +72,114 @@ function LoopStudios(){
                             </div>
                         </div>
                     </div>
-                    <div className={"container sm:mx-auto"}>
-                        <h2>Our creations</h2>
+                    <div className={'container mx-auto flex flex-col'}>
+                        <div className={"flex flex-row justify-center md:justify-between"}>
+                        {/* <h2 className={'uppercase text-3xl tracking-wider font-light'}>Our creations</h2> */}
+                            <h2 className={'uppercase text-3xl tracking-wider font-light'}>Our creations</h2>
 
-                        <button>
-                            See all
-                        </button>
-                        
-                        <div className={'bg-no-repeat bg-cover'}
-                            style={{backgroundImage: `url(${deepEarthMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            Deep earth
-                        </div>    
-                        
-                        <div className={'bg-no-repeat bg-cover'} 
-                            style={{backgroundImage: `url(${nightArcadeMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            Night arcade
-                        </div>  
-                        
-                        <div className={'bg-no-repeat bg-cover'}  
-                            style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            Soccer team VR
-                        </div>  
-                        
-                        <div className={'bg-no-repeat bg-cover'}  
-                            style={{backgroundImage: `url(${theGridMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            The grid
-                        </div>  
-                        
-                        <div className={'bg-no-repeat bg-cover'} 
-                            style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            From up above VR
-                        </div>  
-                        
-                        <div className={'bg-no-repeat bg-cover'}  
-                            style={{backgroundImage: `url(${pocketBorealisMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            Pocket borealis
-                        </div>  
-                        
-                        <div className={'bg-no-repeat bg-cover'}  
-                            style={{backgroundImage: `url(${theCuriosityMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            The curiosity
-                        </div>  
-                        
-                        <div className={'bg-no-repeat bg-cover'}  
-                            style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, 
-                            backgroundPosition: 'center',
-                            height: '20vh'}}>
-                            Make it fisheye    
-                        </div>  
-                    </div>
-                    <footer className={"container sm:mx-auto"}>
-                        <div className={"container sm:mx-auto"}>
-                            Loopstudios
-                            About
-                            Careers
-                            Events
-                            Products
-                            Support
-
-                            © 2021 Loopstudios. All rights reserved.
-                    
-                        <div className={"attribution"}>
-                            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                            Coded by <a href="#">Your Name Here</a>.
+                            <button className={'hidden md:inline-block'}>
+                                See all
+                            </button>
                         </div>
+
+                        <div className={'flex flex-col md:flex-row'}>
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'}
+                                    style={{backgroundImage: `url(${deepEarthMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    Deep earth
+                                </div>
+                            </div>
+                            
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'} 
+                                    style={{backgroundImage: `url(${nightArcadeMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    Night arcade
+                                </div>
+                            </div>
+
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'}  
+                                    style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    Soccer team VR
+                                </div> 
+                            </div> 
+                            
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'}  
+                                    style={{backgroundImage: `url(${theGridMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    The grid
+                                </div> 
+                            </div>
+ 
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'} 
+                                    style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    From up above VR
+                                </div>
+                            </div>
+                            
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'}  
+                                    style={{backgroundImage: `url(${pocketBorealisMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    Pocket borealis
+                                </div>  
+                            </div>
+                          
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'}  
+                                    style={{backgroundImage: `url(${theCuriosityMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    The curiosity
+                                </div>
+                            </div>
+  
+                            <div className={"px-7 mt-7"}>
+                                <div className={'bg-no-repeat bg-cover'}  
+                                    style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: '20vh'}}>
+                                    Make it fisheye    
+                                </div>
+                            </div>
+
+                            <div className={'px-7 mt-7 text-center md:hidden'}>
+                                <button >
+                                    See all
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <footer className={'bg-black text-white mt-20'}>
+                        <div className={'container sm:mx-auto'}>
+                            <div>
+                                Loopstudios
+                                About
+                                Careers
+                                Events
+                                Products
+                                Support
+
+                                © 2021 Loopstudios. All rights reserved.
+                            </div>
+                    
+                            <div className={'attribution'}>
+                                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                                Coded by <a href="#">Your Name Here</a>.
+                            </div>
                         </div>
                     </footer>
                 </body>
