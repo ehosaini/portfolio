@@ -32,7 +32,7 @@ function LoopStudios(){
 
                 </Head>
                 <body>
-                    <div className={'container sm:mx-auto bg-no-repeat bg-cover'} 
+                    <div className={'container mx-auto max-w-full bg-no-repeat bg-cover'} 
                         style={{backgroundImage: `url(${bgHeroMobileImg})`, 
                         backgroundPosition: 'center',
                         height: '100vh'}}>
@@ -49,7 +49,7 @@ function LoopStudios(){
                         </div>
                     </div>
 
-                    <div className={'container sm:mx-auto mt-16 relative z-0'}
+                    <div className={'container mx-auto mt-16 max-w-3xl relative z-0'}
                         style={{height: '100vh'}}>
                         <div className={'mx-auto max-w-xs lg:max-w-sm lg:max-h-64 lg:max-w-2xl lg:ml-24'}>
                             <Image 
@@ -76,7 +76,7 @@ function LoopStudios(){
                             </div>
                         </div>
                     </div>
-                    <div className={'container mx-auto flex flex-col'}>
+                    <div className={'container mx-auto flex flex-col max-w-7xl'}>
                         <div className={"flex flex-row justify-center md:justify-between"}>
                             <h2 className={'uppercase text-3xl tracking-wider font-light'}>Our creations</h2>
 
@@ -85,76 +85,83 @@ function LoopStudios(){
                             </button>
                         </div>
 
-                        <div className={'flex flex-col md:flex-row'}>
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'}
-                                    style={{backgroundImage: `url(${deepEarthMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    Deep earth
+                        <div className={'flex flex-col'}>
+                            {/* top row */}
+                            {/* TODO: add lg: 76 with 17 or 16.5 rem*/}
+                            <div className={"flex flex-col md:flex-row justify-between"}>
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'}
+                                        style={{backgroundImage: `url(${deepEarthMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh"}}>
+                                        Deep earth
+                                    </div>
                                 </div>
-                            </div>
-                            
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'} 
-                                    style={{backgroundImage: `url(${nightArcadeMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    Night arcade
+                                
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'} 
+                                        style={{backgroundImage: `url(${nightArcadeMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh",}}>
+                                        Night arcade
+                                    </div>
+                                </div>
+
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'}  
+                                        style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh",}}>
+                                        Soccer team VR
+                                    </div> 
+                                </div> 
+                                
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'}  
+                                        style={{backgroundImage: `url(${theGridMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh",}}>
+                                        The grid
+                                    </div> 
                                 </div>
                             </div>
 
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'}  
-                                    style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    Soccer team VR
-                                </div> 
-                            </div> 
-                            
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'}  
-                                    style={{backgroundImage: `url(${theGridMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    The grid
-                                </div> 
-                            </div>
- 
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'} 
-                                    style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    From up above VR
+                            {/* bottom row */}
+                            <div className={"flex flex-col md:flex-row justify-between"}>
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'} 
+                                        style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh",}}>
+                                        From up above VR
+                                    </div>
                                 </div>
-                            </div>
-                            
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'}  
-                                    style={{backgroundImage: `url(${pocketBorealisMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    Pocket borealis
-                                </div>  
-                            </div>
-                          
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'}  
-                                    style={{backgroundImage: `url(${theCuriosityMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    The curiosity
+                                
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'}  
+                                        style={{backgroundImage: `url(${pocketBorealisMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh",}}>
+                                        Pocket borealis
+                                    </div>  
                                 </div>
-                            </div>
-  
-                            <div className={"px-7 mt-7"}>
-                                <div className={'bg-no-repeat bg-cover'}  
-                                    style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, 
-                                    backgroundPosition: 'center',
-                                    height: '20vh'}}>
-                                    Make it fisheye    
+                            
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'}  
+                                        style={{backgroundImage: `url(${theCuriosityMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh",}}>
+                                        The curiosity
+                                    </div>
+                                </div>
+    
+                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
+                                    <div className={'bg-no-repeat bg-cover'}  
+                                        style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, 
+                                        backgroundPosition: 'center',
+                                        height: "40vh",}}>
+                                        Make it fisheye    
+                                    </div>
                                 </div>
                             </div>
 
