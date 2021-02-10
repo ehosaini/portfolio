@@ -1,7 +1,14 @@
 import 'tailwindcss/tailwind.css';
 import Head from 'next/head'
 import Image from 'next/image';
-
+import FacebookIcon from '../../../public/images/loopstudios/icon-facebook.svg';
+import FaviconImg from  '../../../public/images/loopstudios/favicon-32x32.png';
+import CloseIcon from  '../../../public/images/loopstudios/icon-close.svg';
+import HumbergerIcon from  '../../../public/images/loopstudios/icon-humberger.svg';
+import InstagramIcon from  '../../../public/images/loopstudios/icon-instagram.svg';
+import PinterestIcon from  '../../../public/images/loopstudios/icon-pinterest.svg';
+import TwitterIcon from  '../../../public/images/loopstudios/icon-twitter.svg';
+import LogoImg from  '../../../public/images/loopstudios/logo.svg';
 
 function LoopStudios(){
     const bgHeroMobileImg = '/images/loopstudios/mobile/image-hero.jpg';
@@ -14,9 +21,6 @@ function LoopStudios(){
     const pocketBorealisMobileImg = '/images/loopstudios/mobile/image-pocket-borealis.jpg';
     const theCuriosityMobileImg = '/images/loopstudios/mobile/image-curiosity.jpg';
     const makeItFisheyeMobileImg = '/images/loopstudios/mobile/image-fisheye.jpg';
-
-    // Todos
-    // - cleanup inline styles 
 
     return (
             <div>
@@ -51,8 +55,8 @@ function LoopStudios(){
                             <Image 
                                 src={`${interativeMobileImg}`}
                                 alt='Picture of the author'
-                                width={'750'}
-                                height={'500'}
+                                width={750}
+                                height={500}
                                 layout={'responsive'}
                                 objectFit={'contain'}
                             />
@@ -74,7 +78,6 @@ function LoopStudios(){
                     </div>
                     <div className={'container mx-auto flex flex-col'}>
                         <div className={"flex flex-row justify-center md:justify-between"}>
-                        {/* <h2 className={'uppercase text-3xl tracking-wider font-light'}>Our creations</h2> */}
                             <h2 className={'uppercase text-3xl tracking-wider font-light'}>Our creations</h2>
 
                             <button className={'hidden md:inline-block'}>
@@ -164,21 +167,33 @@ function LoopStudios(){
 
                     </div>
                     <footer className={'bg-black text-white mt-20'}>
-                        <div className={'container sm:mx-auto'}>
-                            <div>
-                                Loopstudios
-                                About
-                                Careers
-                                Events
-                                Products
-                                Support
+                        <div className={'container mx-auto py-6 px-18'}>
+                            <div className={"flex flex-col text-center lg:flex-row lg:justify-between"}>
+                                <div className="space-y-4">
+                                    <p className={"lg:text-left"}>Loopstudios</p>
+                                    <ul className={"flex flex-col space-y-4 lg:flex-row lg:space-x-5 lg:space-y-0"}>
+                                        <li>About</li>
+                                        <li>Careers</li>
+                                        <li>Events</li>
+                                        <li>Products</li>
+                                        <li>Support</li>
+                                    </ul>
+                                </div>
 
-                                © 2021 Loopstudios. All rights reserved.
-                            </div>
-                    
-                            <div className={'attribution'}>
-                                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                                Coded by <a href="#">Your Name Here</a>.
+                                <div className={"flex flex-col mt-12 lg:mt-0"}>
+                                    <ul className={"flex space-x-3 justify-center lg:justify-end"}>
+                                        <li className={""}><FacebookIcon /></li>
+                                        <li className={""}><TwitterIcon /></li>
+                                        <li className={""}><PinterestIcon /></li>
+                                        <li className={""}><InstagramIcon /></li>
+                                    </ul>
+                                    <p className={"mt-4 lg:text-right"}>© 2021 Loopstudios. All rights reserved.</p>
+                                                        
+                                    <p className={'text-xs text-center lg:text-right'}>
+                                        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                                        Coded by <a href="#">Ehsan Hosaini</a>.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </footer>
