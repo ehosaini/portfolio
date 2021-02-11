@@ -49,9 +49,9 @@ function LoopStudios(){
                         </div>
                     </div>
 
-                    <div className={'container mx-auto mt-16 max-w-3xl relative z-0'}
+                    <div className={'container mx-auto mt-16 max-w-7xl relative z-0'}
                         style={{height: '100vh'}}>
-                        <div className={'mx-auto max-w-xs lg:max-w-sm lg:max-h-64 lg:max-w-2xl lg:ml-24'}>
+                        <div className={'mx-auto p-7 lg:max-w-2xl lg:max-h-64 lg:ml-0'}>
                             <Image 
                                 src={`${interativeMobileImg}`}
                                 alt='Picture of the author'
@@ -61,12 +61,12 @@ function LoopStudios(){
                                 objectFit={'contain'}
                             />
                         </div>
-                        <div className={'mx-auto mt-8 p-14 bg-white relative z-10 lg:-mt-3 lg:mr-80 lg:max-w-xl'}>
-                            <div className={'text-4xl uppercase mb-8 text-center max-w-sm lg:text-left'}>
+                        <div className={'mx-auto mt-8 p-14 bg-white relative z-10 lg:-mt-3 lg:mr-40 lg:max-w-xl'}>
+                            <div className={'text-4xl uppercase  text-center max-w-sm mx-auto lg:text-left'}>
                                 <h2>The leader in interactive VR</h2>
                             </div>
                             
-                            <div className={'text-center max-w-md lg:text-left'}>
+                            <div className={'text-center max-w-md mt-8 mx-auto lg:text-left'}>
                                 <p> 
                                     Founded in 2011, Loopstudios has been producing world-class virtual reality 
                                     projects for some of the best companies around the globe. Our award-winning 
@@ -76,7 +76,7 @@ function LoopStudios(){
                             </div>
                         </div>
                     </div>
-                    <div className={'container mx-auto flex flex-col max-w-7xl'}>
+                    <div className={'container mx-auto flex flex-col max-w-7xl lg:px-8'}>
                         <div className={"flex flex-row justify-center md:justify-between"}>
                             <h2 className={'uppercase text-3xl tracking-wider font-light'}>Our creations</h2>
 
@@ -108,7 +108,7 @@ function LoopStudios(){
                                 </div>
 
                                 <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'}  
+                                    <div className={'bg-no-repeat bg-cover bg-soccer-team-mobile '}  
                                         style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
                                         backgroundPosition: 'center',
                                         height: "40vh",}}>
