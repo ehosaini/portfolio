@@ -78,11 +78,11 @@ function LoopStudios(){
                     </div>
                     <div className={'container mx-auto flex flex-col max-w-7xl lg:px-8'}>
                         <div className={"flex flex-row justify-center md:justify-between"}>
-                            <h2 className={'uppercase text-3xl tracking-wider font-light'}>Our creations</h2>
+                            <h2 className={'uppercase text-3xl tracking-wider'}>Our creations</h2>
 
-                            <button className={'hidden md:inline-block'}>
+                            <div className={'hidden w-40 text-center p-1 tracking-wider uppercase border-2 border-solid border-black md:inline-block'}>
                                 See all
-                            </button>
+                            </div>
                         </div>
 
                         <div className={'flex flex-col'}>
