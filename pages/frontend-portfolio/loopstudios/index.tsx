@@ -32,20 +32,24 @@ function LoopStudios(){
 
                 </Head>
                 <body>
-                    <div className={'container mx-auto max-w-full bg-no-repeat bg-cover'} 
+                    <div className={'container mx-auto max-w-full bg-no-repeat bg-cover text-white p-12'} 
                         style={{backgroundImage: `url(${bgHeroMobileImg})`, 
                         backgroundPosition: 'center',
-                        height: '100vh'}}>
+                        height: '65vh'}}>
                         
-                        <div>
-                            About
-                            Careers
-                            Events
-                            Products
-                            Support
-                        </div>
-                        <div>
-                            Immersive experiences that deliver
+                        <div className={'flex flex-col mx-auto max-w-7xl h-full space-y-10 px-8'}>
+                            <div className={"flex flex-row justify-between"}>
+                                <p>loopstudios</p>
+                                <ul className={"flex flex-row space-x-6"}>
+                                    <li>Careers</li>
+                                    <li>Events</li>
+                                    <li>Products</li>
+                                    <li>Support</li>
+                                </ul>
+                            </div>
+                            <div className={"max-w-md uppercase text-5xl font-light p-8 border-2 border-solid border-white"}>
+                                Immersive <br></br>experiences <br></br> that deliver
+                            </div>
                         </div>
                     </div>
 
@@ -62,7 +66,7 @@ function LoopStudios(){
                             />
                         </div>
                         <div className={'mx-auto mt-8 p-14 bg-white relative z-10 lg:-mt-3 lg:mr-40 lg:max-w-xl'}>
-                            <div className={'text-4xl uppercase  text-center max-w-sm mx-auto lg:text-left'}>
+                            <div className={'text-4xl uppercase text-center max-w-sm mx-auto lg:text-left'}>
                                 <h2>The leader in interactive VR</h2>
                             </div>
                             
@@ -80,9 +84,9 @@ function LoopStudios(){
                         <div className={"flex flex-row justify-center md:justify-between"}>
                             <h2 className={'uppercase text-3xl tracking-wider'}>Our creations</h2>
 
-                            <div className={'hidden w-40 text-center p-1 tracking-wider uppercase border-2 border-solid border-black md:inline-block'}>
+                            <button className={'hidden w-40 text-center p-1 tracking-wider uppercase border-2 border-solid border-black md:inline-block'}>
                                 See all
-                            </div>
+                            </button>
                         </div>
 
                         <div className={'flex flex-col'}>
@@ -174,7 +178,7 @@ function LoopStudios(){
 
                     </div>
                     <footer className={'bg-black text-white mt-20'}>
-                        <div className={'container mx-auto py-6 px-18'}>
+                        <div className={'container mx-auto py-6 px-8'}>
                             <div className={"flex flex-col text-center lg:flex-row lg:justify-between"}>
                                 <div className="space-y-4">
                                     <p className={"lg:text-left"}>Loopstudios</p>
