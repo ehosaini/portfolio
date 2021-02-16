@@ -170,9 +170,9 @@ function LoopStudios(){
                             </div>
 
                             <div className={'px-7 mt-7 text-center md:hidden'}>
-                                <button >
-                                    See all
-                                </button>
+                            <button className={'w-40 text-center p-1 tracking-wider uppercase border-2 border-solid border-black md:inline-block md:hidden'}>
+                                See all
+                            </button>
                             </div>
                         </div>
 
