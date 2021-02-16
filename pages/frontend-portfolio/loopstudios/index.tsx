@@ -32,12 +32,12 @@ function LoopStudios(){
 
                 </Head>
                 <body>
-                    <div className={'container mx-auto max-w-full bg-no-repeat bg-cover text-white p-12'} 
+                    <div className={'container max-w-full bg-no-repeat bg-cover text-white p-12'} 
                         style={{backgroundImage: `url(${bgHeroMobileImg})`, 
                         backgroundPosition: 'center',
                         height: '65vh'}}>
                         
-                        <div className={'flex flex-col mx-auto max-w-7xl h-full space-y-10 px-8'}>
+                        <div className={'flex flex-col mx-auto max-w-7xl h-full space-y-20 px-8'}>
                             <div className={"flex flex-row justify-between"}>
                                 <p>loopstudios</p>
                                 <ul className={"flex flex-row space-x-6"}>
@@ -47,8 +47,8 @@ function LoopStudios(){
                                     <li>Support</li>
                                 </ul>
                             </div>
-                            <div className={"max-w-md uppercase text-5xl font-light p-8 border-2 border-solid border-white"}>
-                                Immersive <br></br>experiences <br></br> that deliver
+                            <div className={"max-w-md uppercase text-3xl lg:text-5xl font-light p-6 border-2 border-solid border-white"}>
+                                Immersive <br/>experiences <br/> that deliver
                             </div>
                         </div>
                     </div>
@@ -89,82 +89,82 @@ function LoopStudios(){
                             </button>
                         </div>
 
-                        <div className={'flex flex-col'}>
+                        <div className={'flex flex-col px-7 lg:px-0'}>
                             {/* top row */}
                             {/* TODO: add lg: 76 with 17 or 16.5 rem*/}
                             <div className={"flex flex-col md:flex-row justify-between"}>
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'}
-                                        style={{backgroundImage: `url(${deepEarthMobileImg})`, 
+                                <div className={"flex mt-7 p-8 lg:w-72 bg-no-repeat bg-cover"} 
+                                    style={{backgroundImage: `url(${deepEarthMobileImg})`, 
                                         backgroundPosition: 'center',
                                         height: "40vh"}}>
-                                        Deep earth
+                                    <div className={'self-end text-white uppercase text-4xl font-light'} >
+                                        Deep <br/>earth
                                     </div>
                                 </div>
                                 
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'} 
-                                        style={{backgroundImage: `url(${nightArcadeMobileImg})`, 
-                                        backgroundPosition: 'center',
-                                        height: "40vh",}}>
-                                        Night arcade
+                                <div className={"flex mt-7 lg:w-72 p-8 bg-no-repeat bg-cover"}
+                                    style={{backgroundImage: `url(${nightArcadeMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: "40vh"}}>
+                                    <div className={"self-end text-white uppercase text-4xl font-light"} >
+                                        Night <br/> arcade
                                     </div>
                                 </div>
 
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover bg-soccer-team-mobile '}  
-                                        style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
-                                        backgroundPosition: 'center',
-                                        height: "40vh",}}>
-                                        Soccer team VR
+                                <div className={"flex mt-7 lg:w-72 p-8 bg-no-repeat bg-cover"}
+                                    style={{backgroundImage: `url(${soccerTeamVrMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: "40vh",}}>
+                                    <div className={"self-end text-white uppercase text-4xl font-light"}>
+                                        Soccer <br/> team VR
                                     </div> 
                                 </div> 
                                 
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'}  
-                                        style={{backgroundImage: `url(${theGridMobileImg})`, 
-                                        backgroundPosition: 'center',
-                                        height: "40vh",}}>
-                                        The grid
+                                <div className={"flex mt-7 lg:w-72 p-8 bg-no-repeat bg-cover"}
+                                    style={{backgroundImage: `url(${theGridMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: "40vh",}}>
+                                    <div className={"self-end text-white uppercase text-4xl font-light"}>
+                                        The <br/> grid
                                     </div> 
                                 </div>
                             </div>
 
                             {/* bottom row */}
                             <div className={"flex flex-col md:flex-row justify-between"}>
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'} 
-                                        style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, 
-                                        backgroundPosition: 'center',
-                                        height: "40vh",}}>
-                                        From up above VR
+                                <div className={"flex mt-7 lg:w-72 p-8 bg-no-repeat bg-cover"}
+                                    style={{backgroundImage: `url(${fromUpAboveVrMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: "40vh",}}>
+                                    <div className={"self-end text-white uppercase text-4xl font-light"}>
+                                        From up <br/> above VR
                                     </div>
                                 </div>
                                 
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'}  
-                                        style={{backgroundImage: `url(${pocketBorealisMobileImg})`, 
-                                        backgroundPosition: 'center',
-                                        height: "40vh",}}>
-                                        Pocket borealis
+                                <div className={"flex mt-7 lg:w-72 p-8 bg-no-repeat bg-cover"}
+                                    style={{backgroundImage: `url(${pocketBorealisMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: "40vh",}}>
+                                    <div className={"self-end text-white uppercase text-4xl font-light"}>
+                                        Pocket <br/> borealis
                                     </div>  
                                 </div>
                             
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'}  
-                                        style={{backgroundImage: `url(${theCuriosityMobileImg})`, 
-                                        backgroundPosition: 'center',
-                                        height: "40vh",}}>
-                                        The curiosity
+                                <div className={"flex mt-7 lg:w-72 p-8 bg-no-repeat bg-cover"}
+                                    style={{backgroundImage: `url(${theCuriosityMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: "40vh",}}>
+                                    <div className={"self-end text-white uppercase text-4xl font-light"}>
+                                        The <br/> curiosity
                                     </div>
                                 </div>
     
-                                <div className={"px-7 mt-7 lg:w-72 lg:px-0"}>
-                                    <div className={'bg-no-repeat bg-cover'}  
-                                        style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, 
-                                        backgroundPosition: 'center',
-                                        height: "40vh",}}>
-                                        Make it fisheye    
+                                <div className={"flex mt-7 lg:w-72 p-8 bg-no-repeat bg-cover"}
+                                    style={{backgroundImage: `url(${makeItFisheyeMobileImg})`, 
+                                    backgroundPosition: 'center',
+                                    height: "40vh",}}>
+                                    <div className={"self-end text-white uppercase text-4xl font-light"} >
+                                        Make it <br/> fisheye    
                                     </div>
                                 </div>
                             </div>
